@@ -1,11 +1,11 @@
-About r-fselector
-=================
+About r-fselector-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fselector-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=FSelector
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fselector-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for selecting attributes from a given dataset. Attribute subset selection is the process of identifying and removing as much of the irrelevant and redundant information as possible.
 
