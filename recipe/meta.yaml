@@ -1,4 +1,4 @@
-{% set version = "0.33" %}
+{% set version = "0.34" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/FSelector_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/FSelector/FSelector_{{ version }}.tar.gz
-  sha256: 3d57ea602cfa571ef1c1496855610819ff80eb7118d49cf68debfe6b0251d9d1
+  sha256: 29d16e4acb266d91c4648dfa36d416ca522b0c18327d5b6e3c9a7e93a777db1e
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
